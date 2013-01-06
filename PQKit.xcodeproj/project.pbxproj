@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70DBA75C1699D4CE0097CF5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DBA7371699D4A80097CF5C /* Foundation.framework */; };
 		70DBA77B1699D4E70097CF5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DBA7371699D4A80097CF5C /* Foundation.framework */; };
 		70DBA78B1699D4F40097CF5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70DBA7481699D4BE0097CF5C /* Cocoa.framework */; };
 		70DBA7951699D5440097CF5C /* b2dJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6C21699D4190097CF5C /* b2dJson.h */; };
@@ -120,17 +119,49 @@
 		70DBA8001699D5EB0097CF5C /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 70DBA7121699D4280097CF5C /* unzip.c */; };
 		70DBA8011699D5EB0097CF5C /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 70DBA7141699D4280097CF5C /* zip.c */; };
 		70DBA8021699D5EB0097CF5C /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DBA7171699D4280097CF5C /* SSZipArchive.m */; };
+		70EE9A671699E805006C5768 /* CCBAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6DB1699D4280097CF5C /* CCBAnimationManager.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A681699E805006C5768 /* CCBKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6DD1699D4280097CF5C /* CCBKeyframe.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A691699E805006C5768 /* CCBReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6DF1699D4280097CF5C /* CCBReader.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A6A1699E805006C5768 /* CCBSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6E11699D4280097CF5C /* CCBSequence.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A6B1699E805006C5768 /* CCBSequenceProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6E31699D4280097CF5C /* CCBSequenceProperty.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A6C1699E805006C5768 /* CCNode+CCBRelativePositioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6E51699D4280097CF5C /* CCNode+CCBRelativePositioning.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A6D1699E805006C5768 /* CCControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6E91699D4280097CF5C /* CCControl.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A6E1699E805006C5768 /* CCControlButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6EB1699D4280097CF5C /* CCControlButton.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A6F1699E805006C5768 /* CCControlColourPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6ED1699D4280097CF5C /* CCControlColourPicker.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A701699E805006C5768 /* CCControlHuePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6EF1699D4280097CF5C /* CCControlHuePicker.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A711699E805006C5768 /* CCControlPotentiometer.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6F11699D4280097CF5C /* CCControlPotentiometer.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A721699E805006C5768 /* CCControlSaturationBrightnessPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6F31699D4280097CF5C /* CCControlSaturationBrightnessPicker.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A731699E805006C5768 /* CCControlSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6F51699D4280097CF5C /* CCControlSlider.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A741699E805006C5768 /* CCControlStepper.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6F71699D4280097CF5C /* CCControlStepper.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A751699E805006C5768 /* CCControlSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6F91699D4280097CF5C /* CCControlSwitch.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A761699E805006C5768 /* CCColourUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6FE1699D4280097CF5C /* CCColourUtils.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A771699E805006C5768 /* CCScale9Sprite.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7001699D4280097CF5C /* CCScale9Sprite.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A781699E805006C5768 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7021699D4280097CF5C /* Utils.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A791699E805006C5768 /* CCControlExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7041699D4280097CF5C /* CCControlExtension.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A7A1699E805006C5768 /* CCScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7071699D4280097CF5C /* CCScrollView.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A7B1699E805006C5768 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA70D1699D4280097CF5C /* crypt.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A7C1699E805006C5768 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA70F1699D4280097CF5C /* ioapi.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A7D1699E805006C5768 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7111699D4280097CF5C /* mztools.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A7E1699E805006C5768 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7131699D4280097CF5C /* unzip.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A7F1699E805006C5768 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7151699D4280097CF5C /* zip.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A801699E805006C5768 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA7161699D4280097CF5C /* SSZipArchive.h */; settings = {ATTRIBUTES = (); }; };
+		70EE9A821699E88C006C5768 /* b2dJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6C21699D4190097CF5C /* b2dJson.h */; };
+		70EE9A831699E88C006C5768 /* KTPhysicsBody+b2dJsonController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6D21699D4190097CF5C /* KTPhysicsBody+b2dJsonController.h */; };
+		70EE9A841699E88C006C5768 /* KTPhysicsController+b2dJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6D41699D4190097CF5C /* KTPhysicsController+b2dJson.h */; };
+		70EE9A851699E88C006C5768 /* KTPhysicsDebugViewController+b2dJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DBA6D61699D4190097CF5C /* KTPhysicsDebugViewController+b2dJson.h */; };
+		70EE9A861699E8D1006C5768 /* CCBReader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 70DBA6DF1699D4280097CF5C /* CCBReader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		70DBA7331699D4A80097CF5C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				70EE9A861699E8D1006C5768 /* CCBReader.h in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		70DBA7591699D4CE0097CF5C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -253,6 +284,7 @@
 		70DBA8111699DDEA0097CF5C /* BuildSettings-Debug-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Debug-Mac.xcconfig"; sourceTree = "<group>"; };
 		70DBA8121699DDEB0097CF5C /* BuildSettings-Release-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Release-Mac.xcconfig"; sourceTree = "<group>"; };
 		70DBA8131699DDEB0097CF5C /* BuildSettings-Mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-Mac.xcconfig"; sourceTree = "<group>"; };
+		70EE9A881699E933006C5768 /* HeaderSearchPaths.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = HeaderSearchPaths.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,7 +306,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70DBA75C1699D4CE0097CF5C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +540,7 @@
 		70DBA7221699D4410097CF5C /* buildsettings */ = {
 			isa = PBXGroup;
 			children = (
+				70EE9A881699E933006C5768 /* HeaderSearchPaths.xcconfig */,
 				70DBA80E1699DDEA0097CF5C /* BuildSettings-Debug-iOS.xcconfig */,
 				70DBA80F1699DDEA0097CF5C /* BuildSettings-Release-iOS.xcconfig */,
 				70DBA8101699DDEA0097CF5C /* BuildSettings-iOS.xcconfig */,
@@ -632,6 +664,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70EE9A651699E7CC006C5768 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EE9A671699E805006C5768 /* CCBAnimationManager.h in Headers */,
+				70EE9A681699E805006C5768 /* CCBKeyframe.h in Headers */,
+				70EE9A691699E805006C5768 /* CCBReader.h in Headers */,
+				70EE9A6A1699E805006C5768 /* CCBSequence.h in Headers */,
+				70EE9A6B1699E805006C5768 /* CCBSequenceProperty.h in Headers */,
+				70EE9A6C1699E805006C5768 /* CCNode+CCBRelativePositioning.h in Headers */,
+				70EE9A6D1699E805006C5768 /* CCControl.h in Headers */,
+				70EE9A6E1699E805006C5768 /* CCControlButton.h in Headers */,
+				70EE9A6F1699E805006C5768 /* CCControlColourPicker.h in Headers */,
+				70EE9A701699E805006C5768 /* CCControlHuePicker.h in Headers */,
+				70EE9A711699E805006C5768 /* CCControlPotentiometer.h in Headers */,
+				70EE9A721699E805006C5768 /* CCControlSaturationBrightnessPicker.h in Headers */,
+				70EE9A731699E805006C5768 /* CCControlSlider.h in Headers */,
+				70EE9A741699E805006C5768 /* CCControlStepper.h in Headers */,
+				70EE9A751699E805006C5768 /* CCControlSwitch.h in Headers */,
+				70EE9A761699E805006C5768 /* CCColourUtils.h in Headers */,
+				70EE9A771699E805006C5768 /* CCScale9Sprite.h in Headers */,
+				70EE9A781699E805006C5768 /* Utils.h in Headers */,
+				70EE9A791699E805006C5768 /* CCControlExtension.h in Headers */,
+				70EE9A7A1699E805006C5768 /* CCScrollView.h in Headers */,
+				70EE9A7B1699E805006C5768 /* crypt.h in Headers */,
+				70EE9A7C1699E805006C5768 /* ioapi.h in Headers */,
+				70EE9A7D1699E805006C5768 /* mztools.h in Headers */,
+				70EE9A7E1699E805006C5768 /* unzip.h in Headers */,
+				70EE9A7F1699E805006C5768 /* zip.h in Headers */,
+				70EE9A801699E805006C5768 /* SSZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EE9A811699E869006C5768 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EE9A821699E88C006C5768 /* b2dJson.h in Headers */,
+				70EE9A831699E88C006C5768 /* KTPhysicsBody+b2dJsonController.h in Headers */,
+				70EE9A841699E88C006C5768 /* KTPhysicsController+b2dJson.h in Headers */,
+				70EE9A851699E88C006C5768 /* KTPhysicsDebugViewController+b2dJson.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -642,6 +718,7 @@
 				70DBA7311699D4A80097CF5C /* Sources */,
 				70DBA7321699D4A80097CF5C /* Frameworks */,
 				70DBA7331699D4A80097CF5C /* CopyFiles */,
+				70EE9A651699E7CC006C5768 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -676,6 +753,7 @@
 				70DBA7571699D4CE0097CF5C /* Sources */,
 				70DBA7581699D4CE0097CF5C /* Frameworks */,
 				70DBA7591699D4CE0097CF5C /* CopyFiles */,
+				70EE9A811699E869006C5768 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -937,9 +1015,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70DBA80E1699DDEA0097CF5C /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				DSTROOT = /tmp/ccbReader_ios.dst;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -949,9 +1031,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70DBA80F1699DDEA0097CF5C /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				DSTROOT = /tmp/ccbReader_ios.dst;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -962,6 +1048,7 @@
 			baseConfigurationReference = 70DBA8111699DDEA0097CF5C /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -975,6 +1062,7 @@
 			baseConfigurationReference = 70DBA8121699DDEB0097CF5C /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -988,6 +1076,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70DBA80E1699DDEA0097CF5C /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/b2dJson_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1000,6 +1089,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70DBA80F1699DDEA0097CF5C /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/b2dJson_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1013,6 +1103,7 @@
 			baseConfigurationReference = 70DBA8111699DDEA0097CF5C /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -1026,6 +1117,7 @@
 			baseConfigurationReference = 70DBA8121699DDEB0097CF5C /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1040,6 +1132,7 @@
 			baseConfigurationReference = 70DBA80E1699DDEA0097CF5C /* BuildSettings-Debug-iOS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/smc_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1053,6 +1146,7 @@
 			baseConfigurationReference = 70DBA80F1699DDEA0097CF5C /* BuildSettings-Release-iOS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/smc_ios.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -1066,6 +1160,7 @@
 			baseConfigurationReference = 70DBA8111699DDEA0097CF5C /* BuildSettings-Debug-Mac.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1080,6 +1175,7 @@
 			baseConfigurationReference = 70DBA8121699DDEB0097CF5C /* BuildSettings-Release-Mac.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1109,6 +1205,7 @@
 				70DBA7421699D4A80097CF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70DBA7541699D4BE0097CF5C /* Build configuration list for PBXNativeTarget "ccbReader-mac" */ = {
 			isa = XCConfigurationList;
@@ -1117,6 +1214,7 @@
 				70DBA7561699D4BE0097CF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70DBA7641699D4CE0097CF5C /* Build configuration list for PBXNativeTarget "b2dJson-ios" */ = {
 			isa = XCConfigurationList;
@@ -1125,6 +1223,7 @@
 				70DBA7661699D4CE0097CF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70DBA7731699D4DD0097CF5C /* Build configuration list for PBXNativeTarget "b2dJson-mac" */ = {
 			isa = XCConfigurationList;
@@ -1133,6 +1232,7 @@
 				70DBA7751699D4DD0097CF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70DBA7831699D4E70097CF5C /* Build configuration list for PBXNativeTarget "smc-ios" */ = {
 			isa = XCConfigurationList;
@@ -1141,6 +1241,7 @@
 				70DBA7851699D4E70097CF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70DBA7921699D4F40097CF5C /* Build configuration list for PBXNativeTarget "smc-mac" */ = {
 			isa = XCConfigurationList;
@@ -1149,6 +1250,7 @@
 				70DBA7941699D4F40097CF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

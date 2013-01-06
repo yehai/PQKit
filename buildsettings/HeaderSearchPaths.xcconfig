@@ -1,0 +1,24 @@
+//
+// Kobold2D™ --- http://www.kobold2d.org
+//
+// Copyright (c) 2010-2011 Steffen Itterheim. 
+// Released under MIT License in Germany (LICENSE-Kobold2D.txt).
+//
+
+// Provide path to all folders with header files that are in use
+// Why so verbose? Because using recursive paths /** together with /../ breaks code sense :(
+// See: http://stackoverflow.com/questions/5288697/code-loses-syntax-color-in-xcode-4
+
+#include "../__KoboldTouch__/buildsettings/HeaderSearchPaths.xcconfig"
+PQROOT = "$(SOURCE_ROOT)"/../PQKit
+
+PQB2DJSONROOT = $(PQROOT)/b2dJson
+PQB2DJSONHEADER = $(PQB2DJSONROOT) $(PQB2DJSONROOT)/json
+
+PQCCBREADERROOT = $(PQROOT)/ccbReader
+PQCCBREADERHEADER = $(PQCCBREADERROOT)/CCBReader $(PQCCBREADERROOT)/CCControlExtension $(PQCCBREADERROOT)/CCScrollView $(PQCCBREADERROOT)/SSZipArchive
+
+PQSMCROOT = $(PQROOT)/smc
+PQSMCHEADER = $(PQSMCROOT)
+
+USER_HEADER_SEARCH_PATHS = $(inherited) $(KOBOLD2D) $(KKSCRIPT) $(COCOS2D) $(COCOS2D_REST) $(COCOS2D_EXTENSIONS) $(COCOSDENSHION) $(VTPG) $(LUA) $(BITARRAY) $(KAZMATH) $(PQB2DJSONHEADER) $(PQCCBREADERHEADER) $(PQSMCHEADER)
