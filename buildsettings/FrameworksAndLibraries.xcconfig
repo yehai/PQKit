@@ -1,0 +1,15 @@
+//
+// Kobold2D™ --- http://www.kobold2d.org
+//
+// Copyright (c) 2010-2011 Steffen Itterheim. 
+// Released under MIT License in Germany (LICENSE-Kobold2D.txt).
+//
+
+#include "../__KoboldTouch__/buildsettings/FrameworksAndLibraries.xcconfig"
+
+FORCE_LOAD_CCBREADER = -force_load "$(BUILT_PRODUCTS_DIR)/libccbReader-ios.a"
+FORCE_LOAD_B2DJSON = -force_load "$(BUILT_PRODUCTS_DIR)/libb2dJson-ios.a"
+
+// all frameworks together
+KKFRAMEWORKS_IOS = $(KKFW_COMMON) $(KKFW_IOS) $(KKFW_IOS_WEAK) $(FORCE_LOAD_CCBREADER) $(FORCE_LOAD_B2DJSON) -lstdc++
+KKFRAMEWORKS_MAC = $(KKFW_COMMON) $(KKFW_MAC) -ObjC -lstdc++

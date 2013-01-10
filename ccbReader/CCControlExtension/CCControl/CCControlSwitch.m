@@ -324,7 +324,7 @@
     
     ccGLEnableVertexAttribs(kCCVertexAttribFlag_PosColorTex);
     ccGLBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    [shaderProgram_ setUniformForModelViewProjectionMatrix];
+    [shaderProgram_ setUniformsForBuiltins];
     
     glActiveTexture(GL_TEXTURE0);
     glBindTexture( GL_TEXTURE_2D, [texture_ name] );

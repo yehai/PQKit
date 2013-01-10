@@ -184,6 +184,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		70443999169E87630055718A /* FrameworksAndLibraries.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FrameworksAndLibraries.xcconfig; sourceTree = "<group>"; };
 		70DBA6C21699D4190097CF5C /* b2dJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = b2dJson.h; sourceTree = "<group>"; };
 		70DBA6C31699D4190097CF5C /* b2dJson.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = b2dJson.mm; sourceTree = "<group>"; };
 		70DBA6C41699D4190097CF5C /* B2dJsonBox2DBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B2dJsonBox2DBody.h; sourceTree = "<group>"; };
@@ -540,6 +541,7 @@
 		70DBA7221699D4410097CF5C /* buildsettings */ = {
 			isa = PBXGroup;
 			children = (
+				70443999169E87630055718A /* FrameworksAndLibraries.xcconfig */,
 				70EE9A881699E933006C5768 /* HeaderSearchPaths.xcconfig */,
 				70DBA80E1699DDEA0097CF5C /* BuildSettings-Debug-iOS.xcconfig */,
 				70DBA80F1699DDEA0097CF5C /* BuildSettings-Release-iOS.xcconfig */,
